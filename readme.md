@@ -1,4 +1,8 @@
-# Awesome Calculator Application
-### Andrew and Kent
+# Calculator Application
 
 ## Performs simple calculations
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
