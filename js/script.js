@@ -27,6 +27,11 @@ $(document).ready(function() {
 
     $("#display").val($("#display").val().replace(/\D\D|[^/*0-9+-\.]/g,''));
 
+    var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+      calculate(); 
+    }
+
   });
 
   $("button").click(function() {
