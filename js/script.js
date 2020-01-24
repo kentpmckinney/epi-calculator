@@ -31,6 +31,7 @@ $(document).ready(function() {
     let btnValue = $(this).attr("value")
     switch (btnValue) {
       case "C":
+          $("#display").val('');
         break;
       case "=":
           calculate()
@@ -38,7 +39,7 @@ $(document).ready(function() {
       default:
         $("#display").val($("#display").val() + btnValue);
     }
-    $("display").focus();
+    $("#display").focus();
   });
 
 });
