@@ -8,16 +8,19 @@ let math = {
 function calculate() {
   // Order of operations = brackets, exponents, division, multiplication, addition, subtraction
   while (/[*+/]+|\d+(?:-)\d+/.test($("#display").val())) {
-    ["/","*","+","-"].forEach(function(operator) {
+    let ops = ["/","*","+","-"];
+    for (let op of ops) {
       let str = $("#display").val();
-      let re = new RegExp("[\\d\\.]+(?:\\" + operator + ")[\\d\\.]+");
-      let divMatch = str.match(re)
-      if (divMatch != null) { 
-        let divValues = divMatch.toString().split(operator)
-        let divResult = math[operator](divValues[0],divValues[1]);
+      let re = new RegExp("[\\d\\.]+(?:\\" + op + ")[\\d\\.]+");
+      let divMatch = str.match(re);
+      let replacement = false;
+      if (divMatch != null) {
+        let divValues = divMatch.toString().split(op)
+        let divResult = math[op](divValues[0],divValues[1]);
         $("#display").val(str.replace(divMatch, divResult));
+        break; // Start back at the beginning of the while loop to maintain order of operations
       }
-    });
+    }
   }
 }
 
