@@ -2,9 +2,33 @@
 <html>
   <head>
     <title>Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div class="display-container">
+      <input id="display" autofocus>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item"><button>/</button></div>
+      <div class="grid-item"><button>*</button></div>
+      <div class="grid-item"><button>%</button></div>
+      <div class="grid-item"><button>C</button></div>
+      <div class="grid-item"><button>1</button></div>
+      <div class="grid-item"><button>2</button></div>
+      <div class="grid-item"><button>3</button></div>
+      <div class="grid-item"><button>+</button></div>
+      <div class="grid-item"><button>4</button></div>
+      <div class="grid-item"><button>5</button></div>
+      <div class="grid-item"><button>6</button></div>
+      <div class="grid-item"><button>-</button></div>
+      <div class="grid-item"><button>7</button></div>
+      <div class="grid-item"><button>8</button></div>
+      <div class="grid-item"><button>9</button></div>
+      <div class="grid-item"><button>=</button></div>
+    </div>
+    <canvas id="c" width="500" height="500"></canvas>
   </body>
 </html>
