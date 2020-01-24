@@ -7,7 +7,7 @@ let math = {
 
 function calculate() {
   // Order of operations = brackets, exponents, division, multiplication, addition, subtraction
-  while (/[^\.\d]+/g.test($("#display").val())) {
+  while (/[*+/]+|\d+(?:-)\d+/.test($("#display").val())) {
     ["/","*","+","-"].forEach(function(operator) {
       let str = $("#display").val();
       let re = new RegExp("[\\d\\.]+(?:\\" + operator + ")[\\d\\.]+");
@@ -24,7 +24,9 @@ function calculate() {
 $(document).ready(function() {
   
   $("#display").keyup(function() {
+
     $("#display").val($("#display").val().replace(/\D\D|[^/*0-9+-\.]/g,''));
+
   });
 
   $("button").click(function() {
