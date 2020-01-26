@@ -24,10 +24,10 @@ body {
 
 button {
   border: none;
-  box-shadow: 0 4px 40px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.1);
+  box-shadow: 3px 3px 2px rgba(0,0,0,0.19);
   padding: 10px;
   min-width: 25%;
-  font-size: 14pt;
+  font-size: large;
 }
 
 button:hover {
@@ -40,6 +40,7 @@ input {
   background: transparent;
   height: 50px;
   font-size: 28px;
+  font-family: monospace;
   width: auto;
 }
 
@@ -64,4 +65,5 @@ input {
 .grid-item {
   padding: 10px;
   text-align: center;
+  align-self: stretch;
 }
