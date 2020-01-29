@@ -12,17 +12,13 @@
   </head>
   <body>
     <div class="display-container">
-      <input id="display" autofocus>
+      <input id="display" autofocus <!--pattern="/[*/0-9+-.%()^]*/"-->
     </div>
     <div class="grid-container">
-      <div class="grid-item"><button value="(">(</button></div>
-      <div class="grid-item"><button value=")">)</button></div>
-      <div class="grid-item"><button value="^">x<sup>n</sup></button></div>
-      <div class="grid-item"><button value="C">C</button></div>
       <div class="grid-item"><button value="/">/</button></div>
       <div class="grid-item"><button value="*">*</button></div>
       <div class="grid-item"><button value="%">%</button></div>
-      <div class="grid-item"><button value=".">.</button></div>
+      <div class="grid-item"><button value="C">C</button></div>
       <div class="grid-item"><button value="1">1</button></div>
       <div class="grid-item"><button value="2">2</button></div>
       <div class="grid-item"><button value="3">3</button></div>
@@ -34,7 +30,12 @@
       <div class="grid-item"><button value="7">7</button></div>
       <div class="grid-item"><button value="8">8</button></div>
       <div class="grid-item"><button value="9">9</button></div>
+      <div class="grid-item"><button value=".">.</button></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"><button value="^">x<sup>n</sup></button></div>
       <div class="grid-item"><button value="=">=</button></div>
+
     </div>
     <canvas id="c" width="500" height="500"></canvas>
   </body>
