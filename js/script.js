@@ -82,9 +82,10 @@ function calculate() {
 $(document).ready(function() {
   
   $('#display').bind('keypress',function(event) {
-    switch (KeyboardEvent.code) {
+    var keycode = (event.keyCode ? event.keyCode : event.which)
+    switch (keycode) {
         case 8:  // Backspace
-        case 13: // Enter
+        case 13: calculate(); // Enter
         case 17: // Ctrl
         case 37: // Left
         case 39: // Right
