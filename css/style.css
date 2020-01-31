@@ -14,7 +14,17 @@ button {
 
 button:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 3px 3px rgba(0,0,0,0.3);
-  transform: scale(1.1);
+  animation-name: grow;
+  animation-duration: 0.5s;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1.00);
+  }
+  100% {
+    transform: scale(1.025);
+  }
 }
 
 input {
@@ -28,6 +38,7 @@ input {
   box-shadow: 0 4px 40px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.1);
   display: grid;
   grid-template-columns: auto;
+  min-width: 152px;
   padding: 7px;
   background: rgba(0,0,0,0.05);
 }
@@ -41,5 +52,4 @@ input {
 
 .grid-item {
   padding: 4px;
-  width: 100%;
 }
