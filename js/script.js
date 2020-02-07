@@ -81,24 +81,26 @@ function calculate() {
 
 $(document).ready(function() {
   
-  $('#display').bind('keypress',function(event) {
-    var keycode = (event.keyCode ? event.keyCode : event.which)
-    switch (keycode) {
-        case 8:  // Backspace
-        case 13: calculate(); // Enter
-        case 17: // Ctrl
-        case 37: // Left
-        case 39: // Right
-        break;
-        default:
-        let invalid = /[^^/*0-9+-.%()]/;
-        let key = event.key;
-        if (invalid.test(key)) {
-            event.preventDefault();
-            return false;
-        }
-        break;
+  $('#display').bind('keypress',function(e) {
+    let event = e || window.event;
+    let key = event.keyCode || event.which;
+    key = String.fromCharCode(key);
+
+    // Filter out keys that are always invalid
+    let validCharacters = /[^^/*0-9+-.%]/;
+    if (validCharacters.test(key)) {
+        e.preventDefault();
+        return;
     }
+    
+    // Filter keys that are invalid in certain contexts
+    let string = $('#display').val();
+    let valid = /[^^/*0-9+-.%]/;
+    if (valid.test(string)) {
+        e.preventDefault();
+        return;
+    }
+
   });
 
   // $("#display").keydown(function(event) {

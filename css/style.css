@@ -14,8 +14,9 @@ button {
 
 button:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,0.30), 0 3px 3px rgba(0,0,0,0.3);
-  animation-name: grow;
+  animation-name: background;
   animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes grow {
@@ -24,6 +25,12 @@ button:hover {
   }
   100% {
     transform: scale(1.025);
+  }
+}
+
+@keyframes background {
+  100% {
+    background-color: white;
   }
 }
 
