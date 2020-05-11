@@ -1,21 +1,64 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
-
 # Calculator
+
+A calculator which supports basic operations
+
 https://github.com/kentpmckinney/epi-calculator
 
-##### Author: Kent McKinney - [GitHub](https://github.com/kentpmckinney)
-##### Copyright &copy; 2020 Kent McKinney
-### Description:
+## Previewing this Project
 
-``Presents a quiz of the sounds various birds make for the English language``
+This project is hosted at: https://kentpmckinney.github.io/epi-calculator
 
-### Setup Instructions:
-    1. Download a copy of the source code from GitHub from https://github.com/kentpmckinney/epi-calculator
-    2. Navigate to the location of the downloaded source files
-    3. Run the file "index.html" in a web browser
-
-### Changelog:
+## How to Play the Game
 
 
-### Specifications:
+
+## Working with the Source Code
+
+The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
+
+### Prerequisites
+
+The following software must be installed and properly configured on the target machine. 
+
+```
+An updated web browser (Internet Explorer is not compatible)
+```
+```
+Git (optional but recommended)
+```
+
+### Setting up a Development Environment
+
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-calculator
+   or clone using the repository link: https://github.com/kentpmckinney/epi-calculator.git
+2. Navigate to the folder location of the source files in Finder or in the Terminal
+3. Launch a web browser so that it opens index.html
+
+## Running Automated Tests
+
+how to run the automated tests
+
+```
+example
+```
+
+## Deployment
+
+
+
+## Technologies Used
+
+* JavaScript
+* HTML
+* CSS
+
+## Authors
+
+Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+
+### Copyright &copy; 2020 Kent P. McKinney
+
+## Acknowledgments
+
 
