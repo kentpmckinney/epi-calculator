@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Calculator</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
-  </head>
-  <body>
-    <div class="display-container">
-      <input id="display" class="grid-item" size="1" autofocus <!--pattern="/[*/0-9+-.%()^]*/"-->
-    </div>
-    <div class="grid-container">
-      <div class="grid-item"><button value="/">/</button></div>
-      <div class="grid-item"><button value="%">%</button></div>
-      <div class="grid-item"><button value="*">*</button></div>
-      <div class="grid-item"><button value="C">C</button></div>
-      <div class="grid-item"><button value="1">1</button></div>
-      <div class="grid-item"><button value="2">2</button></div>
-      <div class="grid-item"><button value="3">3</button></div>
-      <div class="grid-item"><button value="+">+</button></div>
-      <div class="grid-item"><button value="4">4</button></div>
-      <div class="grid-item"><button value="5">5</button></div>
-      <div class="grid-item"><button value="6">6</button></div>
-      <div class="grid-item"><button value="-">-</button></div>
-      <div class="grid-item"><button value="7">7</button></div>
-      <div class="grid-item"><button value="8">8</button></div>
-      <div class="grid-item"><button value="9">9</button></div>
-      <div class="grid-item"><button value="^">x<sup>n</button></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"><button value="0">0</button></div>
-      <div class="grid-item"><button value=".">.</sup></button></div>
-      <div class="grid-item"><button value="=">=</button></div>
 
-    </div>
-    <canvas id="c" width="500" height="500"></canvas>
-  </body>
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="display-container">
+    <input id="display" autofocus />
+  </div>
+  <div class="grid-container">
+    <div class="grid-item"><button value="/">/</button></div>
+    <div class="grid-item"><button value="*">*</button></div>
+    <div class="grid-item"><button value="%">%</button></div>
+    <div class="grid-item"><button value="C">C</button></div>
+    <div class="grid-item"><button value="1">1</button></div>
+    <div class="grid-item"><button value="2">2</button></div>
+    <div class="grid-item"><button value="3">3</button></div>
+    <div class="grid-item"><button value="+">+</button></div>
+    <div class="grid-item"><button value="4">4</button></div>
+    <div class="grid-item"><button value="5">5</button></div>
+    <div class="grid-item"><button value="6">6</button></div>
+    <div class="grid-item"><button value="-">-</button></div>
+    <div class="grid-item"><button value="7">7</button></div>
+    <div class="grid-item"><button value="8">8</button></div>
+    <div class="grid-item"><button value="9">9</button></div>
+    <div class="grid-item"><button value=".">.</button></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"><button value="^">x<sup>n</sup></button></div>
+    <div class="grid-item"><button value="=">=</button></div>
+
+  </div>
+  <canvas id="c" width="500" height="500"></canvas>
+</body>
+
 </html>
