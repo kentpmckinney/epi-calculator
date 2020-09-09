@@ -1,4 +1,6 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
+<!-- Portfolio: Yes -->
+
 # Calculator
 
 A calculator which supports basic operations
@@ -8,10 +10,6 @@ https://github.com/kentpmckinney/epi-calculator
 ## Previewing this Project
 
 This project is hosted at: https://kentpmckinney.github.io/epi-calculator
-
-## How to Play the Game
-
-
 
 ## Working with the Source Code
 
