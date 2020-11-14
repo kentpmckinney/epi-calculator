@@ -1,54 +1,82 @@
-<!-- Category: Epicodus;HTML/CSS/JS -->
-<!-- Portfolio: Yes -->
 
 # Calculator
 
-A calculator which supports basic operations
+A calculator with basic functions
 
-https://github.com/kentpmckinney/epi-calculator
+  <br/>
 
-## Previewing this Project
+### How to Use
+Touch or click a button or optionally type directly into the display box to enter a string of calculations to be evaluated.
 
-This project is hosted at: https://kentpmckinney.github.io/epi-calculator
+<br/>
 
-## Working with the Source Code
+### Previewing this Project
+![Screenshot](http://kentpmckinney.github.io/epi-calculator/epi-calculator.gif)
 
-The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
+<br/>
 
-### Prerequisites
+### Technologies Used
 
-The following software must be installed and properly configured on the target machine. 
+  <code>JavaScript
+HTML
+CSS</code>
+  <br/>
+  <br/>
 
-```
-An updated web browser (Internet Explorer is not compatible)
-```
-```
-Git (optional but recommended)
-```
+### Working with the Source Code
 
-### Setting up a Development Environment
+<details markdown="1">
+  <summary>Instructions</summary>
 
-1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-calculator
-   or clone using the repository link: https://github.com/kentpmckinney/epi-calculator.git
-2. Navigate to the folder location of the source files in Finder or in the Terminal
-3. Launch a web browser so that it opens index.html
+  <br/>
+  The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
 
-## Deployment
+  <br/>
+  <br/>
 
-The source files are deployable as-is
+  ### Prerequisites
 
-## Technologies Used
+  The following software must be installed and properly configured on the target machine. 
 
-* JavaScript
-* HTML
-* CSS
+  
 
-## Authors
+* Git (recommended)
+* An updated web browser (Internet Explorer may not be compatible)
+  <br/>
 
-Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+  ### Setting up a Development Environment
 
-### Copyright &copy; 2020 Kent P. McKinney
+  The following steps are meant to be a quick way to get the project up and running.
 
-## Acknowledgments
+  
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-calculator or clone using the repository link: https://github.com/kentpmckinney/epi-calculator.git
+1. Launch a new tab in a web browser
+1. Select to open a file location and navigate to the folder location of the source files
+1. Choose the file <code>index.html</code>
+  <br/>
 
-https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/practice-calculator-and-more
+  ### Notes
+
+  
+
+  ### Deployment
+
+  The files provided are ready to be deployed directly to a web server.
+
+</details>
+
+<br/>
+
+### Authors
+
+[kentpmckinney](https://github.com/kentpmckinney)
+<br/>
+<br/>
+
+### Acknowledgments
+
+<sub markdown="1">https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/practice-calculator-and-more</sub>
+<br/>
+<br/>
+
+###### <sub markdown="1">Copyright&copy; 2020 [kentpmckinney](https://github.com/kentpmckinney). All rights reserved.</sub>
