@@ -3,7 +3,7 @@
 
 A calculator with basic functions
 
-  <br/>
+<br/>
 
 ### How to Use
 Touch or click a button or optionally type directly into the display box to enter a string of calculations to be evaluated.
@@ -19,11 +19,11 @@ A [live demo](https://kentpmckinney.github.io/epi-calculator) of this applicatio
 
 ### Technologies Used
 
-  <code>JavaScript
+<code>JavaScript
 HTML
 CSS</code>
-  <br/>
-  <br/>
+<br/>
+<br/>
 
 ### Working with the Source Code
 
@@ -65,7 +65,7 @@ The following steps are meant to be a quick way to get the project up and runnin
 
 The files provided are ready to be deployed directly to a web server.
 
-<!-- </details> -->
+</details>
 
 <br/>
 
