@@ -47,7 +47,7 @@ The following software must be installed and properly configured on the target m
 
 The following steps are meant to be a quick way to get the project up and running.
 
-1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-calculator or clone using the repository link: https://github.com/kentpmckinney/epi-calculator.git
+1. Download a copy of the source code from: [https://github.com/kentpmckinney/epi-calculator](https://github.com/kentpmckinney/epi-calculator) or clone using the repository link: <code>https://github.com/kentpmckinney/epi-calculator.git</code>
 1. Launch a new tab in a web browser
 1. Select to open a file location and navigate to the folder location of the source files
 1. Choose the file <code>index.html</code>
