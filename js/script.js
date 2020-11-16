@@ -30,7 +30,7 @@ function clearError() {
 
 }
 
-$(document).ready( () => {
+$(document).ready(() => {
 
   $('#display').bind('keypress', e => {
 
@@ -44,7 +44,7 @@ $(document).ready( () => {
       calculate()
     }
 
-    let valid = /[^^/*0-9+-.%]/;
+    let valid = /[^^/.*0-9+-%]/;
     if (valid.test(key)) {
       e.preventDefault();
       return;
@@ -52,7 +52,7 @@ $(document).ready( () => {
 
   });
 
-  $("button").click(function() {
+  $("button").click(function () {
 
     let input = $("#display");
     let btnValue = $(this).attr("value")
