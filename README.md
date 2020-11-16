@@ -55,7 +55,8 @@ The following steps are meant to be a quick way to get the project up and runnin
 
 
 
-
+### Deployment<br>
+The files provided are ready to be deployed directly to a web server.
 
 </details>
 
